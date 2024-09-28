@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Discover New Artists</h1>
+            <p>Enter your favorite artist and find new artists to explore!</p>
+        </header>
+        
+        <section class="form-section">
+            <form id="artistForm">
+                <input type="text" id="artistInput" placeholder="Enter your favorite artist..." required>
+                <button type="submit">Find Artists</button>
+            </form>
+        </section>
+
+        <section class="results-section">
+            <h2>Recommended Artists</h2>
+            <div class="results" id="results"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
